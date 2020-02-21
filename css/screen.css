@@ -31,7 +31,7 @@ h1,
 h2,
 h3 {
   font-size: 2.827em; /* Fallback font-size for calc() */
-  font-size: calc(2.827em + (4.241 - 2.827) *(100vw - 18.75em)/81.25);
+  font-size: calc(1.999em + (4.241 - 1.999) *(100vw - 18.75em)/81.25);
   /*14 / 16 = 0.875 ; 26 / 16 = 1.625 ; 300 / 16 = 18.75 ; 1300 / 16 = 81.25*/
   line-height: 1em;
   margin-bottom: 0.265em;
@@ -41,8 +41,8 @@ h3 {
 }
 
 h2 {
-  font-size: 1.999em; /* Fallback font-size for calc() */
-  font-size: calc(1.999em + (2.999 - 1.999) *(100vw - 18.75em)/81.25);
+  /*font-size: 1.999em; /* Fallback font-size for calc() */
+  font-size: calc(1.414em + (2.999 - 1.414)*(100vw - 18.75em)/81.25);
   /*14 / 16 = 0.875 ; 26 / 16 = 1.625 ; 300 / 16 = 18.75 ; 1300 / 16 = 81.25*/
   margin-bottom: 0.5em;
 }
