@@ -92,6 +92,10 @@ footer {
   margin-right: auto;
 }
 
+.prod-img {
+  width: 40%;
+}
+
 #power-pic {
   max-width: 100%;
 }
