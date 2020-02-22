@@ -7,97 +7,53 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* Custom styles below */
 
 /* Using an Augmented Fourth modular scale:
-* https://www.modularscale.com/?1.5&em&1.414
+* https://www.modularscale.com/?1.2&em&1.414
 */
 
 /* Base Styles */
 
+* { display: block;}
+
+/* Screen Size = 320px, No Layout */
+
 html {
   color: #0f0f0f; /* Near black */
   font-family: "Roboto", "Comic Sans MS", cursive, sans-serif;
-  font-size: 1em; /* Fallback font-size for calc() */
-  font-size: calc(0.875em + (1.625 - 0.875) *(100vw - 18.75em)/81.25);
-  /*14 / 16 = 0.875 ; 26 / 16 = 1.625 ; 300 / 16 = 18.75 ; 1300 / 16 = 81.25*/
-  line-height: 1.2em; /* Fallback line-height for calc() */
-  line-height: calc(1.0625em + (2 - 1.0625) * (100vw - 18.75em)/81.25);
-  /*17 / 16 = 1.0625 ; 32 / 16 = 2 */
+  font-size: 1em;
+  line-height: 1.2em;
 }
 
 body {
   background-color: #ffe0b3;
 }
 
+#logo-ace,
+#logo-emmanuel {
+  max-width: 3.998em;
+  max-width: calc(1.999em + (10 - 1.999) *(100vw - 18.75em)/81.25);
+  padding: 0.5em;
+}
+
 h1,
-h2,
-h3 {
-  font-size: 2.827em; /* Fallback font-size for calc() */
-  font-size: calc(1.999em + (4.241 - 1.999) *(100vw - 18.75em)/81.25);
-  /*14 / 16 = 0.875 ; 26 / 16 = 1.625 ; 300 / 16 = 18.75 ; 1300 / 16 = 81.25*/
+h2 {
+  font-size: 2.399em;
   line-height: 1em;
-  margin-bottom: 0.265em;
-  /*margin-left: 2.6em;
-  margin-left: calc(2.6em + (0.177)*(100vw - 18.75em)/81.25);*/
+  margin-bottom: 0.25em;
   text-align: center;
 }
 
 h2 {
-  /*font-size: 1.999em; /* Fallback font-size for calc() */
-  font-size: calc(1.414em + (2.999 - 1.414)*(100vw - 18.75em)/81.25);
-  /*14 / 16 = 0.875 ; 26 / 16 = 1.625 ; 300 / 16 = 18.75 ; 1300 / 16 = 81.25*/
+  font-size: 1.697em;
   margin-bottom: 0.5em;
-}
-
-h3 {
-  font-size: 1.414em; /* Fallback font-size for calc() */
-  font-size: calc(1.414em + (2.121 - 1.414) *(100vw - 18.75em)/81.25);
-  /*14 / 16 = 0.875 ; 26 / 16 = 1.625 ; 300 / 16 = 18.75 ; 1300 / 16 = 81.25*/
-  margin-left: 0;
-  text-align: left;
-}
-
-nav {
-  border-bottom: 0.265em dashed #0f0f0f; /* Near black */
-  border-top: 0.265em dashed #0f0f0f; /* Near black */
-  padding-bottom: 1.061em;
-  padding-left: 1.414em;
-  padding-top: 0.707em;
-}
-
-section {
-  margin-top: 1.061em;
-  padding-left: 1.414em;
-  padding-bottom: 0.707em;
-  border-bottom: 0.188em solid #0f0f0f; /* Near black */
-}
-
-p {
-  margin-top: 0.707em;
-}
-
-footer {
-  font-size: 0.707em; /* Fallback font-size for calc() */
-  font-size: calc(0.5em + (0.75 - 0.5) *(100vw - 18.75em)/81.25);
-  /*14 / 16 = 0.875 ; 26 / 16 = 1.625 ; 300 / 16 = 18.75 ; 1300 / 16 = 81.25*/
-  padding-left: 2.5em;
-  line-height: 1.414em;
-  margin-bottom: 1.414em;
-  margin-top: 1.414em;
 }
 
 .header-photo {
-  margin-bottom: 0.5em;
   border-top: 0.707em double #0f0f0f; /* Near black */
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.prod-img {
-  width: 40%;
+  margin-bottom: 0.5em;
 }
 
 #power-pic {
-  max-width: 100%;
+  width: 100%;
 }
 
 .header-photo figcaption {
@@ -106,20 +62,41 @@ footer {
   left: -10000px;
 }
 
-.header-bar {
-  display: block;
+nav {
+  border-bottom: 0.25em dashed #0f0f0f; /* Near black */
+  border-top: 0.25em dashed #0f0f0f; /* Near black */
+  margin-bottom: 0.5em;
+  padding-bottom: 0.707em;
+  padding-left: 0.5em;
+  padding-top: 0.5em;
 }
 
-#logo-ace {
-  float: left;
-  padding: 0.5em;
-  max-width: 6.5em;
-  max-width: calc(1.999em + (10 - 1.999) *(100vw - 18.75em)/81.25);
+h3 {
+  font-size: 1.2em;
+  font-style: italic;
+  margin-bottom: 0.5em;
+  margin-left: 0.5em;
 }
 
-#logo-emmanuel {
-  float: right;
-  padding: 0.5em;
-  max-width: 6.5em;
-  max-width: calc(1.999em + (10 - 1.999) *(100vw - 18.75em)/81.25);
+p {
+  padding-bottom: 0.5em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+section p:last-of-type {
+  border-bottom: 0.177em solid #0f0f0f; /* Near black */
+  margin-bottom: 0.5em;
+}
+
+h4 {
+  font-weight: bold;
+  margin-bottom: 0.5em;
+  margin-left: 0.5em;
+}
+
+.prod-img {
+  width: 40%;
+  margin-bottom: 0.5em;
+  margin-left: 0.5em;
 }
