@@ -1,0 +1,34 @@
+Product Descriptions
+
+Industrial Battery Chargers
+
+A battery charger is a device used to put energy into a secondary cell or rechargeable battery by
+forcing an electric current through it. The charging protocol depends on the size and type of the
+battery being charged.
+
+Constant Voltage Transformers (CVTs)
+
+Certain critical equipment (especially medical equipment) require Solid State Voltage (SSV)
+stabilizers with galvanic isolation between mains input and the equipment. Also, the equipment needs
+to be protected against spikes, voltage surges, glitches, noise, etc., which is not possible with
+conventional Servo Voltage Controlled (SVC) stabilizers. A special type of stabilizer, called the
+Constant Voltage Transformer (CVT) is used for such applications.
+
+Power Inverters
+
+A power inverter is an electronic device or circuitry that changes direct current (DC)
+to alternating current (AC). The input voltage, output voltage, frequency & overall power
+handling all depend on the design of the specific device or circuitry.
+
+Frequency Converters
+
+A frequency converter/changer is an electronic device that converts alternating
+current (AC) of one frequency to an alternating current of another frequency. The device may also
+change the voltage, if required.
+
+Line-Interactive UPS
+
+The line-interactive UPS is similar in operation to a standby UPS, but with the addition of a
+multi-tap variable-voltage autotransformer. This is a special type of transformer that can add or
+subtract powered coils of wire, thereby increasing or decreasing the magnetic field and the output
+voltage of the transformer.
