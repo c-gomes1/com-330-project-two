@@ -26,9 +26,17 @@ A frequency converter/changer is an electronic device that converts alternating
 current (AC) of one frequency to an alternating current of another frequency. The device may also
 change the voltage, if required.
 
-Line-Interactive UPS
+On-Line UPS
 
-The line-interactive UPS is similar in operation to a standby UPS, but with the addition of a
+The on-line UPS is similar in operation to a standby UPS, but with the addition of a
 multi-tap variable-voltage autotransformer. This is a special type of transformer that can add or
 subtract powered coils of wire, thereby increasing or decreasing the magnetic field and the output
 voltage of the transformer.
+
+Servo Stabilizers
+
+Servo Control Voltage Stabilizers are highly efficient voltage regulators that work equally well on
+any kind of load. It consists of a detector, a switching unit, a motorized auto-transformer & a
+cut-off circuit. In case of any deviation from the set voltage, the detector sends an error signal
+to the control circuit that, in turn, drives a motor to correct the voltage using the winding on the
+auto-transformer.
