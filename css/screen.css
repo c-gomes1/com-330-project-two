@@ -225,3 +225,31 @@ footer {
   }
 
 }
+
+/* Module Styles */
+
+nav {
+  background-color: #555;
+  margin-bottom: 0.5em;
+  overflow: auto;
+  padding-bottom: 0.707em;
+  padding-left: 0.5em;
+  padding-top: 0.5em;
+  width: 100%;
+}
+
+nav a {
+  display: flex;
+  padding: 0.5em;
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+.navbar a:hover {
+  background-color: #000;
+}
+
+.active {
+ background-color: #4CAF50;
+}
