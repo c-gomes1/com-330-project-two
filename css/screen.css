@@ -87,6 +87,10 @@ p {
   padding-right: 0.5em;
 }
 
+section h3 {
+  padding-top: 0.25em;
+}
+
 section p:last-of-type,
 enquiry {
   border-bottom: 0.177em solid #0f0f0f; /* Near black */
@@ -224,13 +228,24 @@ footer {
     grid-row: 4 / 5;
   }
 
+  main {
+    display: grid;
+    grid-auto-flow: dense;
+  }
+
+  #products {
+    align-items: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
 }
 
 /* Module Styles */
 
 nav {
   background-color: #555;
-  margin-bottom: 0.5em;
+  margin-bottom: 0;
   overflow: auto;
   padding-bottom: 0.707em;
   padding-left: 0.5em;
@@ -252,4 +267,26 @@ nav a {
 
 .active {
  background-color: #4CAF50;
+}
+
+section {
+  border: 0.25em solid #0f0f0f; /* Near black */
+  margin: 0.5em;
+}
+
+#about {
+  background-color: #bc5090;
+}
+
+#about h3 {
+  color: #f0f0f0;
+}
+
+#about p {
+  color: #ffa600;
+}
+
+section p:last-of-type {
+  border-bottom: none;
+  margin-bottom: 0;
 }
