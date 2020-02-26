@@ -245,6 +245,11 @@ footer {
   #products h3 {
     grid-column: 1 / -1;
   }
+
+  form {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 /* Module Styles */
@@ -352,4 +357,41 @@ section p:last-of-type {
 
 #email {
   border-bottom: none;
+}
+
+#enquiry {
+  background-color: #665191;
+  color: #f0f0f0;
+}
+
+form {
+  height: auto;
+  margin: 0.5em;
+  padding: 0.5em;
+  width: auto;
+}
+
+label {
+  clear: none;
+  display: block;
+  margin-bottom: 0.5em;
+  text-align: left;
+  width: auto;
+}
+
+input {
+  display: block;
+  float: none;
+  margin-bottom: 0.5em;
+  width: auto;
+}
+
+textarea {
+  display: block;
+  float: none;
+  margin-bottom: 1em;
+}
+
+form {
+  background-color: #9483b0;
 }
