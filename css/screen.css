@@ -81,6 +81,7 @@ nav {
 
 h3 {
   font-size: 1.2em;
+  line-height: 1.44em;
   font-style: italic;
   margin-bottom: 0.5em;
   margin-left: 0.5em;
@@ -105,13 +106,16 @@ enquiry {
 h4 {
   font-weight: bold;
   margin-bottom: 0.5em;
-  margin-left: 0.5em;
 }
 
 .prod-img {
   width: 40%;
   margin-bottom: 0.5em;
   margin-left: 0.5em;
+}
+
+#contact h4 {
+  margin-left: 1em;
 }
 
 ol,
@@ -482,7 +486,26 @@ form {
 
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 895px) {
+
+  html {
+    font-size: 1.2em;
+    line-height: 1.44em;
+  }
+
+  h3 {
+    font-size: 1.697em;
+    line-height: 1.697em;
+  }
+
+  #about p {
+    font-size: 1.25em;
+    line-height: 1.5em;
+  }
+
+  footer {
+
+  }
 
   main {
     grid-template-columns: 3fr 2fr;
