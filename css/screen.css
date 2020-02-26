@@ -82,7 +82,8 @@ p {
   padding-right: 0.5em;
 }
 
-section p:last-of-type {
+section p:last-of-type,
+enquiry {
   border-bottom: 0.177em solid #0f0f0f; /* Near black */
   margin-bottom: 0.5em;
 }
@@ -99,12 +100,15 @@ h4 {
   margin-left: 0.5em;
 }
 
-ol {
+ol,
+ul {
   margin-bottom: 0.5em;
   margin-left: 0.5em;
 }
 
-ol li{
+ol li,
+#phone,
+#email {
   background: url('../media/img/loc-icon.png') no-repeat top left;
   list-style: none;
   padding-bottom: 0.5em;
@@ -118,4 +122,43 @@ iframe {
   margin-bottom: 0.5em;
   margin-left: 0.5em;
   width: 300px;
+}
+
+#phone {
+  background: url('../media/img/phone-icon.png') no-repeat top left;
+}
+
+#email {
+  background: url('../media/img/email-icon.png') no-repeat top left;
+  border-bottom: 0.177em solid #0f0f0f; /* Near black */
+}
+
+form {
+  border: 0.177em solid #0f0f0f; /* Near black */
+  height: 310px;
+  margin: 8px;
+  margin-top: 12px;
+  padding: 8px;
+  width: 255px;
+}
+
+label {
+  clear: left;
+  display: inline-block;
+  margin-bottom: 8px;
+  text-align: left;
+  width: 250px;
+}
+
+input {
+  display: inline-block;
+  float: left;
+  margin-bottom: 8px;
+  width: 250px;
+}
+
+textarea {
+  display: inline-block;
+  float: left;
+  margin-bottom: 8px;
 }
