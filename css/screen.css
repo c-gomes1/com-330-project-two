@@ -17,7 +17,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 html {
   color: #0f0f0f; /* Near black */
   font-family: "Roboto", "Comic Sans MS", cursive, sans-serif;
-  font-size: 1em;
+  font-size: 0.9em;
   line-height: 1.2em;
 }
 
