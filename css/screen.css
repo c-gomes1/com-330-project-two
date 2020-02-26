@@ -9,10 +9,8 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* Using an Augmented Fourth modular scale:
 * https://www.modularscale.com/?1.2&em&1.414
 */
-
+/*
 /* Base Styles */
-
-* { display: block;}
 
 /* Screen Size = 320px, No Layout */
 
