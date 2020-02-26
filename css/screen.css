@@ -50,6 +50,10 @@ h2 {
   margin-bottom: 0.5em;
 }
 
+header {
+  border: 0.707em double #f0f0f0;
+}
+
 .header-photo {
   border-top: 0.707em double #f0f0f0; /* Near black */
   margin-bottom: 0.5em;
@@ -127,10 +131,11 @@ ol li,
 }
 
 iframe {
+  border: 0.25em solid #f0f0f0;
   height: 200px;
   margin-bottom: 0.5em;
   margin-left: 0.5em;
-  width: 290px;
+  width: 285px;
 }
 
 #phone {
@@ -173,7 +178,7 @@ textarea {
 }
 
 footer {
-  border-top: 0.177em solid #f0f0f0; /* Near black */
+  border: 0.177em solid #f0f0f0; /* Near black */
   font-size: 0.75em;
   padding-top: 0.5em;
 }
@@ -297,7 +302,7 @@ nav a {
 }
 
 section {
-  border: 0.25em solid #0f0f0f; /* Near black */
+  border: 0.25em solid #f0f0f0; /* Near black */
   margin: 0.5em;
 }
 
