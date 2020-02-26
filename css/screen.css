@@ -162,3 +162,9 @@ textarea {
   float: left;
   margin-bottom: 8px;
 }
+
+footer {
+  border-top: 0.177em solid #0f0f0f; /* Near black */
+  font-size: 0.75em;
+  margin-top: 0.5em;
+}
