@@ -503,12 +503,12 @@ form {
     line-height: 1.5em;
   }
 
-  footer {
-
-  }
-
   main {
     grid-template-columns: 3fr 2fr;
+  }
+
+  #about {
+    align-self: center;
   }
 
   #products {
@@ -527,7 +527,27 @@ form {
   }
 
   #enquiry {
+    align-self: center;
     grid-row: 2 / 3;
   }
 
+}
+
+@media screen and (min-width: 1150px) {
+
+  #contact {
+    max-width: 400px;
+  }
+
+  iframe {
+    height: 250px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+
+  #contact {
+    max-width: 450px;
+  }
+  
 }
