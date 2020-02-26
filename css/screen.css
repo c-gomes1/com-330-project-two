@@ -27,6 +27,7 @@ body {
 
 #logo-ace,
 #logo-emmanuel {
+  align-self: center;
   float: left;
   width: 4em;
   padding: 0.5em;
