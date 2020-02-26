@@ -490,6 +490,7 @@ form {
 
   #products {
     grid-column: 1 / 4;
+    grid-template-columns: repeat(3,1fr);
   }
 
   #contact {
