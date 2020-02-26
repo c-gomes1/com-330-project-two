@@ -234,10 +234,16 @@ footer {
   }
 
   #products {
-    align-items: flex-start;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+  }
+
+  #products article {
+    flex: 0 1 300px;
+  }
+
+  #products h3 {
+    grid-column: 1 / -1;
   }
 }
 
@@ -289,4 +295,32 @@ section {
 section p:last-of-type {
   border-bottom: none;
   margin-bottom: 0;
+}
+
+#products {
+  background-color: #003f5c;
+}
+
+#products article,
+#products h3 {
+  background-color: #ffa600;
+  border: 0.25em solid #f0f0f0; /* Near black */
+  color: #f0f0f0;
+  margin: 0.5em;
+}
+
+#products h3,
+#products h4 {
+  padding: 0.5em 0.25em 0.25em 0.25em;
+  text-align: center;
+}
+
+.prod-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#products p {
+  padding: 0.25em 0.5em 0.75em 0.75em;
 }
