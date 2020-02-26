@@ -12,7 +12,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /*
 /* Base Styles */
 
-/* Screen Size = 320px, No Layout */
+/* Screen Size = 320px, Universal */
 
 html {
   color: #0f0f0f; /* Near black */
@@ -28,8 +28,7 @@ body {
 #logo-ace,
 #logo-emmanuel {
   float: left;
-  max-width: 3.998em;
-  max-width: calc(2.827em + (10 - 2.827) *(100vw - 18.75em)/81.25);
+  width: 4em;
   padding: 0.5em;
 }
 
