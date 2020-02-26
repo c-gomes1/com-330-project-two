@@ -15,14 +15,14 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* Screen Size = 320px, Universal */
 
 html {
-  color: #0f0f0f; /* Near black */
+  color: #f0f0f0; /* Near white */
   font-family: "Roboto", "Comic Sans MS", cursive, sans-serif;
   font-size: 0.9em;
   line-height: 1.2em;
 }
 
 body {
-  background-color: #ffe0b3;
+  background-color: #2a196e;
 }
 
 #logo-ace,
@@ -51,7 +51,7 @@ h2 {
 }
 
 .header-photo {
-  border-top: 0.707em double #0f0f0f; /* Near black */
+  border-top: 0.707em double #f0f0f0; /* Near black */
   margin-bottom: 0.5em;
 }
 
@@ -66,8 +66,8 @@ h2 {
 }
 
 nav {
-  border-bottom: 0.25em dashed #0f0f0f; /* Near black */
-  border-top: 0.25em dashed #0f0f0f; /* Near black */
+  border-bottom: 0.25em dashed #f0f0f0; /* Near black */
+  border-top: 0.25em dashed #f0f0f0; /* Near black */
   margin-bottom: 0.5em;
   padding-bottom: 0.707em;
   padding-left: 0.5em;
@@ -93,7 +93,7 @@ section h3 {
 
 section p:last-of-type,
 enquiry {
-  border-bottom: 0.177em solid #0f0f0f; /* Near black */
+  border-bottom: 0.177em solid #f0f0f0; /* Near black */
   margin-bottom: 0.5em;
 }
 
@@ -139,11 +139,11 @@ iframe {
 
 #email {
   background: url('../media/img/email-icon.png') no-repeat top left;
-  border-bottom: 0.177em solid #0f0f0f; /* Near black */
+  border-bottom: 0.177em solid #f0f0f0; /* Near black */
 }
 
 form {
-  border: 0.177em solid #0f0f0f; /* Near black */
+  border: 0.177em solid #f0f0f0; /* Near black */
   height: 310px;
   margin: 8px;
   margin-top: 12px;
@@ -173,9 +173,25 @@ textarea {
 }
 
 footer {
-  border-top: 0.177em solid #0f0f0f; /* Near black */
+  border-top: 0.177em solid #f0f0f0; /* Near black */
   font-size: 0.75em;
   padding-top: 0.5em;
+}
+
+a:link {
+  color: #f0f0f0;
+}
+
+a:visited {
+  color: #c9c9c9;
+}
+
+a:hover {
+  color: #f0b8b8;
+}
+
+a:active {
+  color: #de425b;
 }
 
 
@@ -193,7 +209,7 @@ footer {
     grid-template-columns: 1fr repeat(5,2fr) 1fr;
     grid-template-rows: 6fr repeat(5,1fr) 0.5fr;
     height: 100vh;
-    mix-blend-mode:multiply;
+    mix-blend-mode:lighten;
   }
 
   .header-photo {
