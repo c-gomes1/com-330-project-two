@@ -507,6 +507,11 @@ form {
     grid-template-columns: 3fr 2fr;
   }
 
+  #logo-ace,
+  #logo-emmanuel {
+    width: 5em;
+  }
+
   #about {
     align-self: center;
   }
@@ -535,6 +540,18 @@ form {
 
 @media screen and (min-width: 1150px) {
 
+  h1 {
+    font-size: 3.393em;
+  }
+
+  h2 {
+    font-size: 2.399em;
+  }
+
+  #logo-ace,
+  #logo-emmanuel {
+  }
+
   #contact {
     max-width: 400px;
   }
@@ -546,8 +563,28 @@ form {
 
 @media screen and (min-width: 1400px) {
 
+  h1 {
+    font-size: 3.998em;
+  }
+
+  h2 {
+    font-size: 2.827em;
+  }
+
   #contact {
     max-width: 450px;
   }
-  
+
+}
+
+@media screen and (min-width: 1400px) {
+
+  h1 {
+    font-size: 4.797em;
+  }
+
+  h2 {
+    font-size: 3.393em;
+  }
+
 }
