@@ -112,3 +112,10 @@ ol li{
   padding-left: 35px;
   padding-top: 4px;
 }
+
+iframe {
+  height: 200px;
+  margin-bottom: 0.5em;
+  margin-left: 0.5em;
+  width: 300px;
+}
