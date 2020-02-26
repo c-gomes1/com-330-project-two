@@ -27,21 +27,27 @@ body {
 
 #logo-ace,
 #logo-emmanuel {
+  float: left;
   max-width: 3.998em;
-  max-width: calc(1.999em + (10 - 1.999) *(100vw - 18.75em)/81.25);
+  max-width: calc(2.827em + (10 - 2.827) *(100vw - 18.75em)/81.25);
   padding: 0.5em;
+}
+
+#logo-emmanuel {
+  float: right;
 }
 
 h1,
 h2 {
-  font-size: 2.399em;
+  font-size: 1.999em;
   line-height: 1em;
-  margin-bottom: 0.25em;
+  margin-bottom: 0.354em;
+  margin-top: 0.354em;
   text-align: center;
 }
 
 h2 {
-  font-size: 1.697em;
+  font-size: 1.414em;
   margin-bottom: 0.5em;
 }
 
@@ -166,5 +172,5 @@ textarea {
 footer {
   border-top: 0.177em solid #0f0f0f; /* Near black */
   font-size: 0.75em;
-  margin-top: 0.5em;
+  padding-top: 0.5em;
 }
