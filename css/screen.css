@@ -22,15 +22,19 @@ html {
 }
 
 body {
-  background-color: #2a196e;
+  background-color: #2a196e; /* dark blue */
+}
+
+main {
+  border: 0.3em solid #f0f0f0; /* Near white */
 }
 
 #logo-ace,
 #logo-emmanuel {
-  align-self: center;
   float: left;
+  margin-top: -7.6em;
+  padding: 0.5em 0.707em 0.5em 0.707em;
   width: 4em;
-  padding: 0.5em;
 }
 
 #logo-emmanuel {
@@ -39,8 +43,8 @@ body {
 
 h1,
 h2 {
-  font-size: 1.999em;
-  line-height: 1em;
+  font-size: 2.399em;
+  line-height: 1.2em;
   margin-bottom: 0.354em;
   margin-top: 0.354em;
   text-align: center;
@@ -51,13 +55,20 @@ h2 {
   margin-bottom: 0.5em;
 }
 
+h1::after {
+  border-bottom: 0.15em solid #f0f0f0; /* Near white */
+  content: "";
+  display: block;
+  margin: 0.5em 25% 0 25%;
+  width: 50%;
+}
+
 header {
   border: 0.707em double #f0f0f0;
 }
 
 .header-photo {
   border-top: 0.707em double #f0f0f0; /* Near black */
-  margin-bottom: 0.5em;
 }
 
 #power-pic {
@@ -66,17 +77,16 @@ header {
 
 .header-photo figcaption {
   /* Use to visually conceal the caption*/
-  position: absolute;
   left: -10000px;
+  position: absolute;
 }
 
 nav {
-  border-bottom: 0.25em dashed #f0f0f0; /* Near black */
-  border-top: 0.25em dashed #f0f0f0; /* Near black */
+  border: 0.25em dashed #f0f0f0; /* Near black */
+  line-height: 1.414em;
   margin-bottom: 0.5em;
-  padding-bottom: 0.707em;
-  padding-left: 0.5em;
-  padding-top: 0.5em;
+  margin-top: 0.5em;
+  padding: 0.5em 0.5em 0.707em 0.5em;
 }
 
 h3 {
@@ -97,15 +107,15 @@ section h3 {
   padding-top: 0.25em;
 }
 
-section p:last-of-type,
-enquiry {
-  border-bottom: 0.177em solid #f0f0f0; /* Near black */
+section p:last-of-type {
+  border-bottom: 0.3em solid #f0f0f0; /* Near white */
   margin-bottom: 0.5em;
 }
 
 h4 {
   font-weight: bold;
   margin-bottom: 0.5em;
+  margin-left: 0.5em;
 }
 
 .prod-img {
@@ -149,59 +159,29 @@ iframe {
 
 #email {
   background: url('../media/img/email-icon.png') no-repeat top left;
-  border-bottom: 0.177em solid #f0f0f0; /* Near black */
-}
-
-form {
-  border: 0.177em solid #f0f0f0; /* Near black */
-  height: 310px;
-  margin: 8px;
-  margin-top: 12px;
-  padding: 8px;
-  width: 255px;
-}
-
-label {
-  clear: left;
-  display: inline-block;
-  margin-bottom: 8px;
-  text-align: left;
-  width: 250px;
-}
-
-input {
-  display: inline-block;
-  float: left;
-  margin-bottom: 8px;
-  width: 250px;
-}
-
-textarea {
-  display: inline-block;
-  float: left;
-  margin-bottom: 8px;
 }
 
 footer {
-  border: 0.177em solid #f0f0f0; /* Near black */
+  border: 0.3em solid #f0f0f0; /* Near white */
+  border-top: none;
   font-size: 0.75em;
   padding-top: 0.5em;
 }
 
 a:link {
-  color: #f0f0f0;
+  color: #f0f0f0; /* Near white */
 }
 
 a:visited {
-  color: #c9c9c9;
+  color: #c9c9c9; /* Greenish grey */
 }
 
 a:hover {
-  color: #f0b8b8;
+  color: #f0b8b8; /* Light pink */
 }
 
 a:active {
-  color: #de425b;
+  color: #de425b; /* Dark pink */
 }
 
 
