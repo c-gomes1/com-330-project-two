@@ -327,24 +327,25 @@ article {
 }
 
 #about {
-  background-color: #bc5090; /*******/
+  background-color: #623BFF; /* Mild blue */
 }
 
-#about h3 {
-  color: #f0f0f0;
+h3 {
+  color: #ffffff; /* White */
 }
 
-#about p {
-  color: #ffa600;
+#about p,
+#products p {
+  color: #C4C4C4; /* Silver */
 }
 
 #products {
-  background-color: #003f5c;
+  background-color: #003f5c; /* Dark blue */
 }
 
 #products section,
 #products h3 {
-  background-color: #ffa600;
+  background-color: #623BFF; /* Mild blue */
   border: 0.25em solid #f0f0f0; /* Near black */
   color: #f0f0f0;
   margin: 0.5em;
@@ -372,8 +373,8 @@ article {
 }
 
 #contact {
-  background-color: #ff6361;
-  color: #FFC0CB;
+  background-color: #623BFF; /* Mild blue */
+  color: #C4C4C4; /* Silver */
 }
 
 #contact a {
@@ -381,19 +382,19 @@ article {
 }
 
 #contact a:link {
-  color: #FFCFCB;
+  color: #FFCFCB; /* Pink */
 }
 
 #contact a:visited {
-  color: #FF8FCB;
+  color: #FF8FCB; /* Mild pink */
 }
 
 #contact a:hover {
-  color: #ffffff;
+  color: #ffffff; /* White */
 }
 
 #contact a:active {
-  color: #FF1493;
+  color: #FF1493; /* Dark pink */
 }
 
 #contact::after {
@@ -404,7 +405,25 @@ article {
 }
 
 footer {
+  background-color: #003f5c; /* Dark blue */
   border: 0.3em solid #f0f0f0; /* Near white */
+}
+
+@supports (display: grid) {
+  #about h3::after,
+  #contact h3::after {
+    border-top: 0.1em solid white;
+    content: "";
+    display: block;
+    margin-left: 0.5em;
+    width: 3em;
+  }
+
+  #contact h3::after {
+    margin-left: 0.7em;
+    width: 4em;
+  }
+
 }
 
 /* State Styles */
