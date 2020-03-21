@@ -272,12 +272,13 @@ a:active {
 
 nav {
   background-color: #555;
+  border-left: 0;
+  border-right: 0;
   margin-bottom: 0;
   overflow: auto;
   padding-bottom: 0.707em;
   padding-left: 0.5em;
   padding-top: 0.5em;
-  width: 100%;
 }
 
 nav ul {
