@@ -288,10 +288,9 @@ nav ul {
 }
 
 nav li{
-  padding: 0.5em;
+  padding: 0.25em;
   color: white;
   text-decoration: none;
-  font-size: 1.2em;
 }
 
 nav li:hover {
@@ -302,13 +301,17 @@ nav li:hover {
   background-color: #000;
 }
 
-section {
+main {
+  border: 0;
+}
+
+article {
   border: 0.25em solid #f0f0f0; /* Near black */
   margin: 0.5em;
 }
 
 #about {
-  background-color: #bc5090;
+  background-color: #bc5090; /*******/
 }
 
 #about h3 {
@@ -319,16 +322,11 @@ section {
   color: #ffa600;
 }
 
-section p:last-of-type {
-  border-bottom: none;
-  margin-bottom: 0;
-}
-
 #products {
   background-color: #003f5c;
 }
 
-#products article,
+#products section,
 #products h3 {
   background-color: #ffa600;
   border: 0.25em solid #f0f0f0; /* Near black */
@@ -350,12 +348,12 @@ section p:last-of-type {
 
 #products p {
   padding: 0.25em 0.5em 0.75em 0.75em;
+  border-bottom: 0;
 }
 
 #contact {
   background-color: #ff6361;
   color: #FFC0CB;
-  max-width: 500px;
 }
 
 #contact a {
@@ -378,46 +376,15 @@ section p:last-of-type {
   color: #FF1493;
 }
 
-#email {
-  border-bottom: none;
-}
-
-#enquiry {
-  background-color: #665191;
-  color: #f0f0f0;
-  max-width: 320px;
-}
-
-form {
-  height: auto;
-  margin: 0.5em;
-  padding: 0.5em;
-  width: auto;
-}
-
-label {
-  clear: none;
+#contact::after {
+  border-bottom: 0.3em solid #f0f0f0; /* Near black */
+  content: "";
   display: block;
   margin-bottom: 0.5em;
-  text-align: left;
-  width: auto;
 }
 
-input {
-  display: block;
-  float: none;
-  margin-bottom: 0.5em;
-  width: auto;
-}
-
-textarea {
-  display: block;
-  float: none;
-  margin-bottom: 1em;
-}
-
-form {
-  background-color: #9483b0;
+footer {
+  border: 0.3em solid #f0f0f0; /* Near white */
 }
 
 /* State Styles */
