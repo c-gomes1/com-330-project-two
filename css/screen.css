@@ -249,6 +249,7 @@ main {
       background-size: cover;
       background-position: center;
       height: 100vh;
+      height: calc(100vh - 1.414em);
       mix-blend-mode:lighten;
     }
 
