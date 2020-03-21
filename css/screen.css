@@ -491,8 +491,8 @@ footer {
     }
 
     nav li {
-      margin-left: 0.5em;
-      margin-right: 0.5em;
+      margin-left: 1.5em;
+      margin-right: 1.5em;
     }
   }
 
@@ -518,8 +518,8 @@ footer {
     }
 
     nav li {
-      margin-left: 1em;
-      margin-right: 1em;
+      margin-left: 2.5em;
+      margin-right: 2.5em;
     }
   }
 
@@ -546,8 +546,8 @@ footer {
     }
 
     nav li {
-      margin-left: 1.5em;
-      margin-right: 1.5em;
+      margin-left: 3.5em;
+      margin-right: 3.5em;
     }
   }
 
@@ -614,8 +614,8 @@ footer {
     }
 
     nav li {
-      margin-left: 2em;
-      margin-right: 2em;
+      margin-left: 4em;
+      margin-right: 4em;
     }
 
     iframe {
@@ -718,8 +718,8 @@ footer {
     }
 
     nav li {
-      margin-left: 2.5em;
-      margin-right: 2.5em;
+      margin-left: 4em;
+      margin-right: 4em;
     }
 
     #about p {
@@ -746,8 +746,8 @@ footer {
     }
 
     nav li {
-      padding-left: 1.5em;
-      padding-right: 1.5em;
+      padding-left: 1em;
+      padding-right: 1em;
     }
 
     iframe {
