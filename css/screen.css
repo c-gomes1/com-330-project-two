@@ -367,6 +367,10 @@ article {
   border-bottom: 0;
 }
 
+#products img {
+  border: 0.15em solid #f0f0f0; /* Near white */
+}
+
 #contact {
   background-color: #ff6361;
   color: #FFC0CB;
@@ -393,7 +397,7 @@ article {
 }
 
 #contact::after {
-  border-bottom: 0.3em solid #f0f0f0; /* Near black */
+  border-bottom: 0;
   content: "";
   display: block;
   margin-bottom: 0.5em;
